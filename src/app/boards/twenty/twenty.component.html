@@ -1,0 +1,48 @@
+<div class="container">
+
+  <h1>Dziesięć par</h1>
+  <div class="statistic">
+    <h5>Pozostało par:</h5>
+    <input type="text" id="undiscovered" name="undiscovered" [value]="undiscovered" disabled>
+
+    <h5>Odkryte pary:</h5>
+    <input type="text" id="discovered" name="discovered" [value]="discovered" disabled>
+
+  </div>
+  <div class=board>
+    <div class="column">
+      <div class="div-img" id="one" (click)="oneFieldClick()"></div>
+      <div class="div-img" id="six" (click)="sixFieldClick()"></div>
+      <div class="div-img" id="eleven" (click)="elevenFieldClick()"></div>
+      <div class="div-img" id="sixteen" (click)="sixteenFieldClick()"></div>
+    </div>
+
+    <div class="column">
+      <div class="div-img" id="two" (click)="twoFieldClick()"></div>
+      <div class="div-img" id="seven" (click)="sevenFieldClick()"></div>
+      <div class="div-img" id="twelve" (click)="twelveFieldClick()"></div>
+      <div class="div-img" id="seventeen" (click)="seventeenFieldClick()"></div>
+    </div>
+
+    <div class="column">
+      <div class="div-img" id="three" (click)="threeFieldClick()"></div>
+      <div class="div-img" id="eight" (click)="eightFieldClick()"></div>
+      <div class="div-img" id="thirteen" (click)="thirteenFieldClick()"></div>
+      <div class="div-img" id="eighteen" (click)="eighteenFieldClick()"></div>
+    </div>
+
+    <div class="column">
+      <div class="div-img" id="four" (click)="fourFieldClick()"></div>
+      <div class="div-img" id="nine" (click)="nineFieldClick()"></div>
+      <div class="div-img" id="fourteen" (click)="fourteenFieldClick()"></div>
+      <div class="div-img" id="nineteen" (click)="nineteenFieldClick()"></div>
+    </div>
+
+    <div class="column">
+      <div class="div-img" id="five" (click)="fiveFieldClick()"></div>
+      <div class="div-img" id="ten" (click)="tenFieldClick()"></div>
+      <div class="div-img" id="fifteen" (click)="fifteenFieldClick()"></div>
+      <div class="div-img" id="twenty" (click)="twentyFieldClick()"></div>
+    </div>
+
+</div>

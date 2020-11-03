@@ -1,0 +1,34 @@
+<div class="container">
+
+  <h1>Sześć par</h1>
+  <div class="statistic">
+    <h5>Pozostało par:</h5>
+    <input type="text" id="undiscovered" name="undiscovered" [value]="undiscovered" disabled>
+
+    <h5>Odkryte pary:</h5>
+    <input type="text" id="discovered" name="discovered" [value]="discovered" disabled>
+
+  </div>
+  <div class=board>
+    <div class="column">
+      <div class="div-img" id="one" (click)="oneFieldClick()"></div>
+      <div class="div-img" id="four" (click)="fourFieldClick()"></div>
+      <div class="div-img" id="seven" (click)="sevenFieldClick()"></div>
+      <div class="div-img" id="ten" (click)="tenFieldClick()"></div>
+    </div>
+
+    <div class="column">
+      <div class="div-img" id="two" (click)="twoFieldClick()"></div>
+      <div class="div-img" id="five" (click)="fiveFieldClick()"></div>
+      <div class="div-img" id="eight" (click)="eightFieldClick()"></div>
+      <div class="div-img" id="eleven" (click)="elevenFieldClick()"></div>
+    </div>
+
+    <div class="column">
+      <div class="div-img" id="three" (click)="threeFieldClick()"></div>
+      <div class="div-img" id="six" (click)="sixFieldClick()"></div>
+      <div class="div-img" id="nine" (click)="nineFieldClick()"></div>
+      <div class="div-img" id="twelve" (click)="twelveFieldClick()"></div>
+    </div>
+
+</div>
